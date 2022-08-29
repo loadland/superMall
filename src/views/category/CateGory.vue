@@ -13,11 +13,13 @@
 
 <script>
 import NavBar from 'components/common/navbar/NavBar'
+import Scroll from 'components/content/scroll/Scroll'
 
 export default {
   name: 'CateGory',
   components: {
     NavBar,
+    Scroll,
   }
 }
 </script>

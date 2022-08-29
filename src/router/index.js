@@ -7,6 +7,7 @@ const Home = () => import('views/home/Home.vue')
 const Cart = () => import('views/cart/Cart.vue')
 const CateGory = () => import('views/category/CateGory.vue')
 const ProFile = () => import('views/profile/ProFile.vue')
+const detail = () => import('views/detaill/detail.vue')
 
 
 const routes = [
@@ -40,6 +41,13 @@ const routes = [
     component: ProFile,
     meta: {
       title: '我的'
+    }
+  },
+  {
+    path: '/detail/:iid',
+    component: detail,
+    meta: {
+      title: '信息'
     }
   },
 ]
